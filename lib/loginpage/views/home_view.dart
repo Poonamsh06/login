@@ -41,7 +41,7 @@ class MyHomePage extends StatelessWidget {
       
                                    items: const [
                                      DropdownMenuItem(
-                                       child: Text("'dark'"),
+                                       child: Text("grey"),
                                        value: 1,
                                      ),
                                      DropdownMenuItem(
@@ -73,7 +73,7 @@ class MyHomePage extends StatelessWidget {
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(20),
                           ),
-                          labelText: "Email",
+                          labelText: "E-mail",
                           hintText: "name@example.com",
                           prefixIcon: const Icon(Icons.email),
                         ),
